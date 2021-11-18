@@ -66,38 +66,12 @@ I am doing practice of vi.
 ~                                                                                                                                             
 ~                                                                                                                                             
 ~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
 "hello.txt" 0 line, 0 characters written
 </pre>
   
 ###### Output:
 <pre>
 I am doing practice of vi.
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
 ~                                                                                                                                             
 ~                                                                                                                                             
 ~                                                                                                                                             
@@ -115,20 +89,6 @@ Now you can see our work is save.
 ###### Input:
 <pre>
 I am doing practice of vi.
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
 ~                                                                                                                                             
 ~                                                                                                                                             
 ~                                                                                                                                             
@@ -158,22 +118,6 @@ I am doing practice of vi.
 ~                                                                                                                                             
 ~                                                                                                                                             
 ~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
 :q!
 </pre>
 
@@ -183,17 +127,6 @@ It will exit from the vi so again write the command of vi.
 ###### Output:
 <pre>
 I am doing practice of vi.
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
 ~                                                                                                                                             
 ~                                                                                                                                             
 ~                                                                                                                                             
