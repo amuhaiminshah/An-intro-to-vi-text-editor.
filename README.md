@@ -1,6 +1,6 @@
 # An intro to vi text editor.
 The default editor that comes with the UNIX operating system is called vi (visual editor). Using vi editor, we can edit an existing file or create a new file from scratch. we can also use this editor to just read a text file.
-
+<summary>
 
 
 
@@ -16,7 +16,7 @@ There are <b> two </b> modes. One is < insert mode > the another is < command mo
 #### 1-Open the terminal and write vi < file name >.
 ##### For example:
 ###### Input:
-<pre> muhiamen@sysbox:~$ vi intro-to-vi </pre>
+<pre> muhiamen@sysbox:~$ vi hello.txt </pre>
 ###### Output:
 <pre>
 ~                                                                                                                                             
@@ -24,56 +24,14 @@ There are <b> two </b> modes. One is < insert mode > the another is < command mo
 ~                                                                                                                                             
 ~                                                                                                                                             
 ~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-"intro-to-vi" 1 line, 27 characters
+"hello.txt" 0 line, 0 characters
 </pre>
  
-  
-  
-#### 2-Such this type of display will come:
-##### For example:
-<pre> 
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-"intro-to-vi" 0 lines, 0 characters
-</pre>
 ##### NOTE: 
-In the above example in the double cotation there is the name of file, there is also written that there are 0 lines, 0 characters
+In the above output, in the last line in double cotation shows file name, there is also written that there are 0 lines and 0 characters
 
   
-#### 3-Now we are in command mode so press <b> < i > </b> to get into instert mode.
+#### 2-Now we are in command mode so press <b> < i > </b> to get into instert mode.
 ##### For example:
 <pre>
 I am doing practice of vi.
@@ -86,19 +44,7 @@ I am doing practice of vi.
 ~                                                                                                                                             
 ~                                                                                                                                             
 ~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-"intro-to-vi" 0 lines, 0 characters
+"hello.txt" 0 lines, 0 characters
 </pre>
 ###### NOTE:
 You might be thing that we have write some thing but still he is show us 0 lines, 0 characters it's because that we have't save our work yet.
@@ -133,7 +79,7 @@ I am doing practice of vi.
 ~                                                                                                                                             
 ~                                                                                                                                             
 ~                                                                                                                                             
-"intro-to-vi" 0 line, 0 characters written
+"hello.txt" 0 line, 0 characters written
 </pre>
   
 ###### Output:
@@ -159,7 +105,7 @@ I am doing practice of vi.
 ~                                                                                                                                             
 ~                                                                                                                                             
 ~                                                                                                                                             
-"intro-to-vi" 1 line, 27 characters
+"hello.txt" 1 line, 27 characters
 </pre>
 ###### NOTE:
 Now you can see our work is save.
@@ -258,6 +204,6 @@ I am doing practice of vi.
 ~                                                                                                                                             
 ~                                                                                                                                             
 ~                                                                                                                                             
-"intro-to-vi" 1 line, 27 characters
+"hello.txt" 1 line, 27 characters
 </pre>
 
