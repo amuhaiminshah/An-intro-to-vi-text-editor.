@@ -54,8 +54,44 @@ I am doing practice of vi.
 ###### NOTE:
 You might be thing that we have write some thing but still he is show us 0 lines, 0 characters it's because that we have't save our work yet.
   
-  
-  
+#### <b> < :set number > </b> This command is used to show the line in vi, remember this command only work in comman mode.
+##### For example:
+###### Input:
+<pre>
+I am doing practice of vdi
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+:set number
+</pre>
+
+###### Output:
+<pre>
+      1 save this line and exit.
+      2 I am doing practice of vi.
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                        
+:set number
+</pre>
+ 
+
 ### 2-How to save work:
 ##### <b> < :w > </b>  This command is used to save work without exit.
 ##### For example:
