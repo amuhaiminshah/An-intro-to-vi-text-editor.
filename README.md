@@ -8,7 +8,7 @@ The default editor that comes with the UNIX operating system is called vi (visua
 
 # Let's dive into it.
 ### 1-Lesson:
-There are <b> two </b> modes. One is < insert mode > the another is < command mode >. So when you first open the <b> < vi,< file name > </b>  so it is always in <b> < command mode > </b>, if you wanna go to the editing mode so simply press <b> < i > </b> so then you can write, basically <b> < i > </b> means <b> < insert > </b>. If you wanna go to command mode so simply press <b> < Esc > </b>, where you can type commands.
+There are <b> two </b> modes. One is < insert mode > the another is < command mode >. So when you first open the <b>  vi< file name > </b>  so it is always in <b> < command mode > </b>, if you want to go to the editing mode so simply press <b> < i > </b> so then you can write, basically <b> < i > </b> means <b> < insert > </b>. If you want to go to command mode so simply press <b> < Esc > </b>, where you can type commands.
 
 <img src="https://media.geeksforgeeks.org/wp-content/uploads/Vieditor.jpg" alt="vi editor"> 
 
@@ -466,7 +466,9 @@ search hit BOTTOM, continuing at TOP
 
 #### <b> < ctrl+r > </b> to redo changes which were undone. In other words, undo the undos. Typically, known as redo. 
 
+
 ### How to copy and paste the line or word/words.
+
 #### <b> < yy > </b> This commands is used to copy the current line.
 #### <b> < p > </b> This command is used to paste the copy.
 ##### For example:
@@ -527,5 +529,9 @@ I am doing practice of vi.
 ~                                                                               
 </pre>
 
-<#### <b> < v > </b> Through this command we can copy the multiple words or multiple lines.>
+<#### <b> < v > </b> This command help us to copy or cut with this you can use the movement words (h,j,k,l).
+
+<img src="https://linuxize.com/post/how-to-copy-cut-paste-in-vim/vim-copy-paste-visual_hub98cb6e7406c1949b861c92b96b6f1c1_124609_768x0_resize_q75_lanczos.jpg?ezimgfmt=ng:webp/ngcb90" alt="The example of v command"> 
+
  
+ #### <b> < ndd > </b> Through this command you can cut or delete the multiple lines (eg: n show us the ratio of line) 
