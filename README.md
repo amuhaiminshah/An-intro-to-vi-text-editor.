@@ -439,7 +439,7 @@ I am doing practice of vi
 ~                                                                               
 ~                                                                               
 ~                                                                               
-~                                                                               
+~
 ~                                                                               
 ~                                                                               
 ~                                                                               
@@ -460,9 +460,72 @@ search hit BOTTOM, continuing at TOP
 ###### NOTE: In command mode just hit the <b> f </b> and then hit the first alphabet and the cursor will go there if that is not that word for which you are looking for so simple hit the <b> n </b> it will go to the next word if that is also starting with the same alphabet, basiclly <b> n </b> means next. 
 
 ### Undoing:
-#### <b> < u > </b> It undo the last action (you may keep pressing u to keep undoing).
+#### <b> < u > </b> It undo the last changes. To undo the two last changes,you would type 2u.
 
 #### <b> < U > </b> It undo all changes to the current line.
 
+#### <b> < ctrl+r > </b> to redo changes which were undone. In other words, undo the undos. Typically, known as redo. 
 
+### How to copy and paste the line or word/words.
+#### <b> < yy > </b> This commands is used to copy the current line.
+#### <b> < p > </b> This command is used to paste the copy.
+##### For example:
+###### Input:
+<pre> 
+save this line and exit.
+I am doing practice of vi. 
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+</pre> 
+###### NOTE: I have press yy for second line. It will copy the line after the cursor.
 
+###### Output:
+ <pre> 
+ save this line and exit.
+I am doing practice of vi. 
+I am doing practice of vi. 
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+</pre>
+
+#### <b> < dd > </b> This command is also used to cut the current line.
+##### For example:
+###### Input:
+<pre>
+save this line and exit.
+I am doing practice of vi. 
+cut this line and paste it again.                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+</pre>
+ 
+###### Output:
+<pre>
+cut this line and paste it again.
+save this line and exit.
+I am doing practice of vi. 
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+</pre>
+
+<#### <b> < v > </b> Through this command we can copy the multiple words or multiple lines.>
+ 
