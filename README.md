@@ -277,6 +277,7 @@ I am doing practice of vi
 ~                                                                               
 
 ###### NOTE: shift+x delete the alphabet before the cursor, while the x delete the alphabet after the cursor.
+</pre>
 
 #### <b> < nx > </b> This command is used to delete n characters (eg 5x deletes ﬁve characters)
 ##### For example:
