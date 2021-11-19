@@ -275,9 +275,193 @@ I am doing practice of vi
 ~                                                                               
 ~                                                                               
 ~                                                                               
-Shif
+
+###### NOTE: shift+x delete the alphabet before the cursor, while the x delete the alphabet after the cursor.
+
+#### <b> < nx > </b> This command is used to delete n characters (eg 5x deletes ﬁve characters)
+##### For example:
+###### Input:
+<pre> 
+      1 save this line and exit.
+      2 I am doing practice of vi. 
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+</pre>
+
+###### Output:
+<pre>
+      1 save this line and exit.
+      2 I am doing 
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+</pre>
+
+#### <b> < dd > </b> Through command you can delete the current line.
+##### For example:
+###### Input:
+<pre> 
+      1 save this line and exit.
+      2 I am doing practice of vi. 
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+</pre>
+
+###### Output:
+<pre>
+      1 I am doing practice of vi.
+      
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+</pre>
 
 
+#### <b> < dnd > </b> This command is used to delete multiple lines.
+##### For example:
+###### Input:
+<pre>
+      1 save this line and exit.
+      2 I am doing practice of vi. 
+      3 delete this line.
+      4 and also this one. 
+                                                                         
+~                                                                               
+~                                                                                                                                                            
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                  
+</pre>
+
+###### Output:
+<pre> 
+      1 save this line and exit.
+      2 I am doing practice of vi. 
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+</pre>
+
+
+### How to find something:
+
+#### <b>  / <name> </b> This command is used to find something.
+##### For example:
+##### Input:
+<pre>
+      1 save this line and exit.
+      2 I am doing practice of vi. 
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+/vi
+</pre>
+
+###### Output:
+<pre>
+      1 save this line and exit.
+      2 I am doing practice of vi. 
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+search hit BOTTOM, continuing at TOP
+</pre>
+
+###### NOTE: The cursor will come to begining of that word.
+
+#### <b> f<The first alphabet of the word> </b> This help when you want to word from the start alphabet of the word.
+##### For example:
+###### NOTE: In command mode just hit the <b> f </b> and then hit the first alphabet and the cursor will go there if that is not that word for which you are looking for so simple hit the <b> n </b> it will go to the next word if that is also starting with the same alphabet, basiclly <b> n </b> means next. 
+
+### Undoing:
+#### <b> < u > </b> It undo the last action (you may keep pressing u to keep undoing).
+
+#### <b> < U > </b> It undo all changes to the current line.
 
 
 
