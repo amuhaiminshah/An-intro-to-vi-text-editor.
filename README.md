@@ -13,10 +13,13 @@ There are <b> two </b> modes. One is < insert mode > the another is < command mo
 <img src="https://media.geeksforgeeks.org/wp-content/uploads/Vieditor.jpg" alt="vi editor"> 
 
 ### 2-Lesson:
-#### 1-Open the terminal and write vi < file name >.
+#### Open your terminal and write vi < file name >.
+##### NOTE: If you write the file name which is not present so it will make that file.
 ##### For example:
+
 ###### Input:
 <pre> muhiamen@sysbox:~$ vi hello.txt </pre>
+
 ###### Output:
 <pre>
 ~                                                                                                                                             
@@ -28,12 +31,14 @@ There are <b> two </b> modes. One is < insert mode > the another is < command mo
 </pre>
  
 ##### NOTE: 
-In the above output, in the last line in double cotation shows file name, there is also written that there are 0 lines and 0 characters
+In the above output, in the last line in double cotation shows file name, there is also written that there are 0 lines and 0 characters.
 
   
-#### 2-Now we are in command mode so press <b> < i > </b> to get into instert mode.
+#### Now we are in command mode so press <b> < i > </b> to get into instert mode.
+##### NOTE: In instert mode only the the alphanumeric keys works. 
 ##### For example:
 <pre>
+##### Input:
 I am doing practice of vi.
 ~                                                                                                                                             
 ~                                                                                                                                             
@@ -51,7 +56,7 @@ You might be thing that we have write some thing but still he is show us 0 lines
   
   
   
-### 3-How to save work:
+### 2-How to save work:
 ##### <b> < :w > </b>  This command is used to save work without exit.
 ##### For example:
 ###### Input:
@@ -81,11 +86,10 @@ I am doing practice of vi.
 ~                                                                                                                                             
 "hello.txt" 1 line, 27 characters
 </pre>
-###### NOTE:
-Now you can see our work is save.
+###### NOTE: Now you can see our work is save.
   
-##### <b> < :wq > </b> This command is used to save work with exit.
-###### For example:
+#### <b> < :wq > </b> This command is used to save work with exit.
+##### For example:
 ###### Input:
 <pre>
 I am doing practice of vi.
@@ -139,4 +143,105 @@ I am doing practice of vi.
 ~                                                                                                                                             
 "hello.txt" 1 line, 27 characters
 </pre>
+
+#### <b> < ZZ > </b> This command save the work without exit.
+##### For example:
+###### Input:
+<pre> 
+save this line and exit.
+I am doing practice of vi.
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+ZZ
+</pre>
+
+###### Output:
+<pre> muhiamen@sysbox:~$  </pre>
+ 
+
+### How to move the cursor.
+
+###### NOTE: Most people have use the navigation keys in vi, using these keys thay have different funtion in vi. Instead of navigation key these keys are used j, k, h, l - to move the cursor down, up, left and right (similar to the
+arrow keys). These all keys work only in command mode.
+
+#### <b> < h > </b> This key is used to move the cursor to left.
+ 
+#### <b> < j > </b> This key is used to move the cursor to the down line.
+ 
+#### <b> < k > </b> This key is used to move the cursor to the up line.
+ 
+#### <b> < l > </b> This key is used to move the cursor the right.
+ 
+#### <b> < 0 > </b> This key is used to move to the start of the line.
+
+#### <b> < $ > </b> This key is used to move to the end of the current line.
+ 
+#### <b> < nG > </b> This key is used to move to the <b> n </b> th line (eg 5G moves to 5th line).
+ 
+#### <b> < G > </b> This key move to move to the last line.
+ 
+#### <b> < nw > </b> This key is used to move forward n word (eg 2w moves two words forwards). 
+ 
+#### <b> < b > </b> This key is used to move forward n word (eg 2w moves two words forwards). 
+ 
+#### <b> < w > </b> This key is used to move to the beginning of the next word.
+
+#### <b> < nb > </b> This key is used to move back n word (eg 2b move two word back.
+
+#### <b> < { > </b> This key is used to move backward one paragraph.
+
+#### <b> < } > </b> This key is used to move move forward one paragraph.
+
+
+### How to delet content:
+
+###### NOTE: These all command work in command mode.
+
+#### <b> < x > </b> This key is used to delete a single character.
+##### For example:
+###### Input:
+<pre>
+save this line and exit.
+I am doing practice of vdi
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+</pre>
+
+###### Output:
+<pre>
+save this line and exit.
+I am doing practice of vi
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+Shif
+
+
+
+
 
