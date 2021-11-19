@@ -534,4 +534,27 @@ I am doing practice of vi.
 <img src="https://linuxize.com/post/how-to-copy-cut-paste-in-vim/vim-copy-paste-visual_hub98cb6e7406c1949b861c92b96b6f1c1_124609_768x0_resize_q75_lanczos.jpg?ezimgfmt=ng:webp/ngcb90" alt="The example of v command"> 
 
  
- #### <b> < ndd > </b> Through this command you can cut or delete the multiple lines (eg: n show us the ratio of line) 
+#### <b> < ndd > </b> Through this command you can cut or delete the multiple lines (eg: n show us the ratio of line). 
+
+#### <b> < y$ > </b> This command is used to copy everything after the cursor upto end line.
+
+#### <b> < y^ > </b> This command is used to copy everything before the cursor upto start line.
+
+#### <b> < yiw > </b> This command is used to copy the current word.
+ 
+#### <b> < yw > </b> Thsi command is used to copy the next word.
+
+#### <b> < y% > </b> This command is used to copy the matching character, By default supported pairs are (), {}, and [].
+ 
+#### <b> < d$ > </b> This command is used to cut everything after the cursor upto end line.
+ 
+#### <b> < d^ > </b> This command is used to cut everything before the cursor upto start line.
+
+
+ 
+ 
+ 
+ 
+ 
+
+
