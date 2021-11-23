@@ -26,7 +26,6 @@ There are <b> two </b> modes. One is < insert mode > the another is < command mo
 ~                                                                                                                                             
 ~                                                                                                                                             
 ~                                                                                                                                             
-~                                                                                                                                             
 "hello.txt" 0 line, 0 characters
 </pre>
  
@@ -40,11 +39,6 @@ In the above output, in the last line in double cotation shows file name, there 
 <pre>
 ##### Input:
 I am doing practice of vi.
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
 ~                                                                                                                                             
 ~                                                                                                                                             
 ~                                                                                                                                             
@@ -63,13 +57,6 @@ I am doing practice of vdi
 ~                                                                               
 ~                                                                               
 ~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
 :set number
 </pre>
 
@@ -77,13 +64,6 @@ I am doing practice of vdi
 <pre>
       1 save this line and exit.
       2 I am doing practice of vi.
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
 ~                                                                               
 ~                                                                               
 ~                                                                               
@@ -101,22 +81,12 @@ I am doing practice of vi.
 ~                                                                                                                                             
 ~                                                                                                                                             
 ~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
 "hello.txt" 0 line, 0 characters written
 </pre>
   
 ###### Output:
 <pre>
 I am doing practice of vi.
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
 ~                                                                                                                                             
 ~                                                                                                                                             
 ~                                                                                                                                             
@@ -129,10 +99,6 @@ I am doing practice of vi.
 ###### Input:
 <pre>
 I am doing practice of vi.
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
 ~                                                                                                                                             
 ~                                                                                                                                             
 ~                                                                                                                                             
@@ -152,12 +118,6 @@ I am doing practice of vi.
 ~                                                                                                                                             
 ~                                                                                                                                             
 ~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
 :q!
 </pre>
 
@@ -171,12 +131,6 @@ I am doing practice of vi.
 ~                                                                                                                                             
 ~                                                                                                                                             
 ~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
-~                                                                                                                                             
 "hello.txt" 1 line, 27 characters
 </pre>
 
@@ -186,11 +140,6 @@ I am doing practice of vi.
 <pre> 
 save this line and exit.
 I am doing practice of vi.
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
 ~                                                                               
 ~                                                                               
 ~                                                                               
@@ -251,26 +200,12 @@ I am doing practice of vdi
 ~                                                                               
 ~                                                                               
 ~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
 </pre>
 
 ###### Output:
 <pre>
 save this line and exit.
 I am doing practice of vi
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
 ~                                                                               
 ~                                                                               
 ~                                                                               
@@ -289,36 +224,12 @@ I am doing practice of vi
 ~                                                                               
 ~                                                                               
 ~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
 </pre>
 
 ###### Output:
 <pre>
       1 save this line and exit.
       2 I am doing 
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
 ~                                                                               
 ~                                                                               
 ~                                                                               
@@ -335,30 +246,12 @@ I am doing practice of vi
 ~                                                                               
 ~                                                                               
 ~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
 </pre>
 
 ###### Output:
 <pre>
       1 I am doing practice of vi.
       
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
 ~                                                                               
 ~                                                                               
 ~                                                                               
@@ -378,8 +271,6 @@ I am doing practice of vi
 ~                                                                               
 ~                                                                                                                                                            
 ~                                                                               
-~                                                                               
-~                                                                               
 ~                                                                  
 </pre>
 
@@ -391,16 +282,14 @@ I am doing practice of vi
 ~                                                                               
 ~                                                                               
 ~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
 </pre>
+### How to jump into the lines
 
+#### <b>:n</b> This command is used to jump or move to the line n(eg :2 so it moves or jump into the line 2)
+
+#### <b>:+n</b> This command is used to jump or move on n line(eg :+2 so it move or jump on 2 lines)
+
+#### <b>:-n</b> This command is used to jump or move back n line(eg :-3 so it will move or jump back 3 lines)
 
 ### How to find something:
 
@@ -414,15 +303,6 @@ I am doing practice of vi
 ~                                                                               
 ~                                                                               
 ~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
 /vi
 </pre>
 
@@ -430,22 +310,6 @@ I am doing practice of vi
 <pre>
       1 save this line and exit.
       2 I am doing practice of vi. 
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
 ~                                                                               
 ~                                                                               
 ~                                                                               
@@ -479,10 +343,6 @@ I am doing practice of vi.
 ~                                                                               
 ~                                                                               
 ~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
-~                                                                               
 </pre> 
 ###### NOTE: I have press yy for second line. It will copy the line after the cursor.
 
@@ -491,9 +351,6 @@ I am doing practice of vi.
  save this line and exit.
 I am doing practice of vi. 
 I am doing practice of vi. 
-~                                                                               
-~                                                                               
-~                                                                               
 ~                                                                               
 ~                                                                               
 ~                                                                               
@@ -512,8 +369,6 @@ cut this line and paste it again.
 ~                                                                               
 ~                                                                               
 ~                                                                               
-~                                                                               
-~                                                                               
 </pre>
  
 ###### Output:
@@ -521,8 +376,6 @@ cut this line and paste it again.
 cut this line and paste it again.
 save this line and exit.
 I am doing practice of vi. 
-~                                                                               
-~                                                                               
 ~                                                                               
 ~                                                                               
 ~                                                                               
