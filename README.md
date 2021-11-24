@@ -427,7 +427,7 @@ I am doing practice of vi.
 <#### <b> < v > </b> 
 This command help us to copy or cut with this you can use the movement words (h,j,k,l).
 
-<img src="https://linuxize.com/post/how-to-copy-cut-paste-in-vim/vim-copy-paste-visual_hub98cb6e7406c1949b861c92b96b6f1c1_124609_768x0_resize_q75_lanczos.jpg?ezimgfmt=ng:webp/ngcb90" alt="The example of v command"> 
+<img src="https://github.com/amuhaiminshah/An-intro-to-vi-text-editor./blob/main/Example%20of%20vi.png" alt="The example of v command"> 
 
  
 #### <b> < ndd > </b> 
